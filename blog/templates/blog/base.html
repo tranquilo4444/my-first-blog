@@ -1,0 +1,25 @@
+{% load staticfiles %}
+<html>
+<head>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link href="//fonts.googleapis.com/css?family=Press+Start+2P&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+
+
+	<title>CPA Project</title>
+</head>
+<body>
+<div class="outer">
+<div class="page-header">
+    <h1><center><a href="/">Blog</a></center></h1>
+</div>
+
+<table align="center" class="tbl">
+{% block content %}
+    
+{% endblock %}
+</table>
+</div>
+</body>
+</html>
