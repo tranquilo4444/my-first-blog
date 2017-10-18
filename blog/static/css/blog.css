@@ -4,6 +4,14 @@
     padding: 20px 20px 20px 40px;
 }
 
+table
+{
+	border: 1px ;
+	table-layout: fixed;
+	width: 94%;
+	height: 94%
+}
+
 h1 a {
     color: #603B74;
     font-family: 'Press Start 2P';
@@ -11,16 +19,16 @@ h1 a {
 
 body {
     padding-left: 15px;
-    background-color: #333333;
-    background-image:url('images/vpr.JPG');
+    background-color: #FB7B98;
+    background-image:url('/static/css/images/vpr.JPG');
     background-attachment: fixed;
-    background-repeat:no-repeat;
     background-size:100%;
 }
 
 td {
-    padding-left: 11px;
+    padding: 11px;
     text-align: left;
+    word-wrap: break-word;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -30,7 +38,7 @@ td {
 }
 
 .content {
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 h1, h2, h3, h4 {
